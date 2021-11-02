@@ -1,6 +1,6 @@
 tasks:
   - name: Setup Google Cloud SDK
-    before: curl -O https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-362.0.0-linux-x86_64.tar.gz && tar -xf google-cloud-sdk-362.0.0-linux-x86_64.tar.gz && ./google-cloud-sdk/install.sh && rm -r google-cloud-sdk && rm -r google-cloud-sdk-362.0.0-linux-x86_64.tar.gz
+    before: curl -O https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-362.0.0-linux-x86_64.tar.gz && tar -xf google-cloud-sdk-362.0.0-linux-x86_64.tar.gz && ./google-cloud-sdk/install.sh && rm -r google-cloud-sdk-362.0.0-linux-x86_64.tar.gz
 github:
   prebuilds:
     # enable for the master/default branch (defaults to true)
